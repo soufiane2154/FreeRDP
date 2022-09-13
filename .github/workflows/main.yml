@@ -23,6 +23,3 @@ jobs:
     - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "Shahid@123" -Force)
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 3389
-
-Github RDP.txt.txt
-جارٍ عرض Github RDP.txt.txt.
